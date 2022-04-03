@@ -1,0 +1,26 @@
+
+
+Step 1: Break The UI Into A Component Hierarchy
+
+App
+
+      1. Header
+         i. TodoTextInput
+      2. MainSection
+         i. TodoItem 
+         ii.Footer
+
+-------------------------------------------
+
+Step 2: Build A Static Version in React
+
+-------------------------------------------
+
+Step 3: Identify The Minimal (but complete) Representation Of UI State
+
+      state ==> todos
+-------------------------------------------
+Step 4: Identify Where Your State Should Live
+--------------------------------------------------
+step 5: Adding inverse Data Flow
+//-------------------------------------------------

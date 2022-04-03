@@ -1,0 +1,38 @@
+
+
+      --------------------------------------------------------
+
+        .js-lang
+
+       -->  single-threaded lang  --> can able to cucurrency
+       -->  Non-blocking IO
+
+       --------------------------------------------------------
+
+       how .js-programs run in browser?
+
+
+       e.g browser e.g chrome
+
+        1. js-engine : v8(c++)   ( based on ECMAScript spec )
+
+              single-call-stack  ==> to execute js-contexts
+              heap               ==> to hold objects 
+     
+        2. implemtations od W3c APIs
+
+           e.g  DOM , XHR , Timer , HTML5 APIs
+
+        3. event/callback queue
+
+        4. Event-Loop
+
+
+        ref : https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+        ref : http://latentflip.com/loupe
+
+        -------------------------------------------------------------
+
+
+
+

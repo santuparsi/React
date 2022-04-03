@@ -1,0 +1,55 @@
+
+
+
+
+problems with .js-lang without module-standards
+
+
+==> global Naming collisions
+==> resolving module dependency hierarchy
+
+---------------------------------------------
+
+soln:
+
+   using .js module-standards
+
+
+   from third-parties
+
+   a. AMD
+   b. commonJS
+   c. SystemJS
+   d. UMD
+
+   from ECMAScipt-2015 / Es6
+
+   -> ES6 module
+
+-----------------------------------------------   
+
+
+commonJS-module standard
+
+    --> every .js is an module by default
+    --> all variables & funcs are private to that module.
+    --> to abstract/exports any member , use 'module.exports'
+    --> to require/import any member , use 'require()'
+    --> group related modules into packages
+    --> a package can containt description file ( package.json)
+
+
+imp-note : only Node.js already implements common-JS module standard
+
+------------------------------------------------------------------
+
+
+   NPM ( Node Package Manager) 
+
+
+     --> commnad-line tool
+     --> to manage( import /export ) node-packages ( commonJS-packages)
+
+
+------------------------------------------------------------------     
+

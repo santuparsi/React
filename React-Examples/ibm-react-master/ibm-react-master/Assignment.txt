@@ -1,0 +1,26 @@
+
+
+
+Todo- application
+------------------
+
+    Model:
+     - Todo ( id,title,completed)
+   -----------------------------------  
+
+   Service/Actions - TodoService
+
+   - addTodo(title)
+   - deleteTodo(id)
+   - editTodo(id,newTitle)
+   - completeTodo(id) // toggle
+   - completeAll() // toggle
+   - clearCompleted()
+
+   - display(filter)
+        filter ==> all,active,completed
+   --------------------------------------
+   main-module:
+      - test-all actions
+   --------------------------------------
+         

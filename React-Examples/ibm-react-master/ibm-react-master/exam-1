@@ -1,0 +1,40 @@
+
+
+        ------------------------------------------------------------------------
+
+    1.   create array with flight search details b/w 2 sources on specific date
+
+         flight ==> {id,airlines,departure,arrival,duration,price}
+
+         note
+
+           ==> every operation should produce new output-array
+           ==> render output-array with common method on console
+
+           a. sort by ( asc & desc )
+
+                ==> price
+                ==> departure
+                ==> arrival
+                ==> duration
+
+           b. search by
+
+                ==> airlines
+                ==> price range ( min & max)
+                ==> time peroid ( e.g 5.PM to 10.PM) 
+                ==> flight which has third-minimum price
+
+                
+
+        ------------------------------------------------------------------------
+
+        2.  reverse array of elements  ( note : without using second array & lodash)
+
+        ------------------------------------------------------------------------
+
+        3.  find unique elements in an array 
+
+        ------------------------------------------------------------------------
+
+        

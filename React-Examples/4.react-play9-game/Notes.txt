@@ -1,0 +1,16 @@
+
+
+
+  components hierarchy
+  ----------------------
+
+
+  --> Game
+
+       - StarsFrame
+       - ButtonsFrame
+       - AnswerFrame
+       - NumbersFrame
+         - DoneFrame 
+
+------------------------------------         

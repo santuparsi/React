@@ -1,0 +1,10 @@
+
+
+
+ES6 modules
+--------------
+
+--> every .js file is module
+--> all members by default private
+--> to export any member(s), use 'export' 
+--> to import any member(s), use 'import'

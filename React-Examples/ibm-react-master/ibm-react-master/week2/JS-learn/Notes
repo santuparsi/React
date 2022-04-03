@@ -1,0 +1,144 @@
+
+
+  .js-lang
+
+      --> scripting-lang for web-pages in browser-envi
+      +
+      --> server-side lang on Node.js
+
+      --> Mobile applications
+
+      --> commnad-line tools
+
+
+      Features:
+      ----------
+
+      --> functional-programming lang
+      --> OOP
+
+      --> closures support
+      --> dynamic data-types
+
+      --> single-thread-lang , bu can implement concurrency
+      --> Non-Blocking IO
+
+      -----------------------------------------
+
+
+      How to ru .js programs ?
+
+
+      --> JS-runtime ( shud have .js-engine)
+
+
+        browser-envi
+
+        a. chrome  ==> v8(c++)
+        b. firefox ==> rhino(java)
+        c. IE      ==> chakra
+        d. safari  ==> nitro
+
+        etc....
+
+        other-envi
+
+        a. Node.js  ==> v8
+        b. JVM      ==> nashorn
+        c. Adobe
+        d. Aapache CouchDB
+
+        etc......
+
+        -----------------
+
+        .js-lang is an impln of ECMAScript spec 
+
+        -----------------------------------------
+
+        latest : ECMAScript-2015 or ES6
+
+        impln-support-ref : http://kangax.github.io/compat-table/es6/
+        ----------------------------------------
+
+
+           .js learning-path
+
+            --------------------------------------------
+            1. data-types
+            2. execution-contexts
+            3. functions-depth
+            4.1. function-invocations style
+            4.2. 'this' keyword
+            5. closures , and why we need?
+            6. inheritance ==> prototypes
+            7. objects-depth
+            8. js module standards
+            9. How to uses .js in browser or Node.js
+            ------------------------------------------
+            1. ES6 New-Features
+            ------------------------------------------
+
+
+
+          /*
+
+              Naming conventions
+              ----------------------
+
+              1.Type ==> Class , Constructor-Function
+
+                  --> pascal-case  e.g A____B___
+              
+              2. var/method
+              
+                  --> camel-case  e.g  _____A___B___
+
+              3. constants
+
+                  --> upper-case
+
+              4. file-name
+
+                  if module container only class , use class-name as file-name
+                      else
+                      
+                  --> lower-case   
+
+
+          */
+
+          ------------------------------------
+
+          Ex-1
+
+         in employee-package
+
+          --> create Employee class ( es5 or es6)
+
+               id 
+               name
+               salary
+
+               - doListen() : instance method
+               
+
+          in hr-package     
+
+          --> create HR class 
+
+               - doManageEmployees()
+
+                  --> creaet couple of employees
+                  --> doListen() them individially
+
+          ---------------------------------------------
+          in root-package
+
+          --> main-module  ( index.js) 
+
+             - call HR functionality
+
+         -------------------------------------------       
+
+               

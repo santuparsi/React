@@ -1,0 +1,21 @@
+
+
+
+
+TimeTracking appln
+-------------------
+
+Step 3: Determine what should be stateful
+
+state data
+
+  
+  --> isCreateFormOpen
+  --> list of timers
+  --> editFormOpen
+
+
+Step 4: Determine in which component each piece of state should live
+
+
+

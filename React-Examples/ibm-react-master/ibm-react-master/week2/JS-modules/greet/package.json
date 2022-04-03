@@ -1,0 +1,6 @@
+{
+    "name":"ibm-greet-module",
+    "version":"1.0.0",
+    "author":"Nag",
+    "main":"greet.js"
+}

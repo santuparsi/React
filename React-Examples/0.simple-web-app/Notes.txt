@@ -1,0 +1,94 @@
+
+
+ .js-lang on web-pages in browser envi?
+
+
+    using browser given APIs, can bring any dynamic func to web-page
+
+     browser given APIs ( based on w3c standards)
+
+         e,g  DOM, XHR , Timer , HTML5 APIs
+
+
+     using DOM 
+     ----------   
+    --> can create,retreive,update,delete HTML elements dynamically
+    --> can change element's text content
+    --> can change element's inner HTML
+    --> can change element's attributes
+    --> can change element's style
+    --> can listen events on elements
+    --> can create rich UI-components ( e.g date-picker , autocomplete)
+
+    using XHR
+    -----------
+    --> can communicate with server async, update results in existing page ( AJAX )
+
+
+   etc...
+
+
+   -------------------------------------------------------------------
+
+
+   limitations of plain-js
+
+
+
+        --> browser compatability
+        --> plain-js with DOM API , will give lot of performance issues
+        --> memory management ( e.g cleaning un-used DOM elements , remove event-listeners ,...)
+        --> data-binding b/w objects & view elements is manual. ( leads much perfoamnce issues) 
+        --> code organization & refcatoring is difficult ,
+        --> too much code even for simple oprations
+
+
+        soln : using .js libraries nad F.browser
+
+
+        1. jQuery
+
+           --> DOM utility library
+
+
+           limitations of jQuery
+
+
+           --> too low to DOM.
+           --> data-binding is manual
+
+
+           ----------------------------------------------
+
+
+           MVC and MVVM based F.browser
+
+
+           --> knockout .js  
+           --> Angular 1.x  ==> Google tean
+           --> Ember
+           --> Backbone
+
+           UI components based F.W
+
+
+           --> DOJO
+           --> Ext-JS from sencha ( commercial )
+
+
+           etc...
+
+
+           --------------------------------------
+
+
+           React  ==> UI libray to create UI components
+
+              --> from facebook 
+
+           --------------------------------------   
+
+            web-pages  ==> using components
+
+            ---------------------------------------
+           
