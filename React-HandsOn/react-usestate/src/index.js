@@ -7,10 +7,11 @@ import Demo1 from './Demo1';
 import Demo2 from './Demo2';
 import Demo3 from './Demo3';
 import Demo4 from './Demo4';
+import Counter from './Counter.Js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Demo4 />
+   <Counter />
   </React.StrictMode>
 );
 
