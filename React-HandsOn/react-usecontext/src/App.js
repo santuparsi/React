@@ -1,18 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-import Demo1 from './Demo1';
-import { messageContext } from './MyContexts';
-import Demo2 from './Demo2';
+import React, { useState } from 'react';
+import { ThemeContext } from './ThemeContext';
+import Profile from './Profile.js';
+import UserContext from './UserContext';
+import Child from './Child';
 function App() {
+  // const [theme, setTheme] = useState('light');
+  const user = { name: "Alice", role: "Admin" };
   return (
-    <div className="App">
-      <Demo1 />
-      <messageContext.Provider 
-      value='GoodEvening User'>
-        <Demo2 />
-      </messageContext.Provider>
-    </div>
+    <UserContext.Provider value={user}>
+      <Profile />
+    </UserContext.Provider>
+    // <ThemeContext.Provider value={theme}>
+    //   <div>
+    //     <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
+    //       Toggle Theme
+    //     </button>
+    //     <Child />
+    //   </div>
+    // </ThemeContext.Provider>
   );
-}
 
+
+}
 export default App;
